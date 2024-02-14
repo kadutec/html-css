@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Midias</title>
+    <style>
+      * {
+        background-color: rgb(107, 106, 106);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Imagem dinâmica</h1>
+    <p>
+      Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o
+      tamanho do seu navegador
+    </p>
+    <picture>
+      <source media="(max-width: 750px)" srcset="imgs/foto-p.png" type="" />
+      <source media="(max-width: 1000px)" srcset="imgs/foto-m.png" />
+      <img src="imgs/foto-g.png" alt="foto g" />
+    </picture>
+  </body>
+</html>
