@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Hamburguer</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+            </span>
+        <menu id="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About-us</a></li>
+                <li><a href="#">Install</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando media queries</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis qui quae voluptatibus veritatis voluptatem, architecto expedita impedit tempore, nam laborum est officia dignissimos, aperiam reprehenderit dolorum autem in repellendus deserunt?Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit sunt, eaque libero eius tempore veniam sit similique vel eligendi quos odio, delectus repellendus perspiciatis corrupti nulla deleniti voluptates cum incidunt! Aperiam fuga necessitatibus amet iste alias iure soluta magni cum consequuntur molestias harum corrupti, dignissimos laborum modi aliquam, delectus consectetur?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis qui quae voluptatibus veritatis voluptatem, architecto expedita impedit tempore, nam laborum est officia dignissimos, aperiam reprehenderit dolorum autem in repellendus deserunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem eum veritatis, veniam pariatur omnis enim magni voluptas. Aperiam suscipit corrupti beatae laboriosam accusantium nulla magnam, obcaecati pariatur earum ad numquam!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis qui quae voluptatibus veritatis voluptatem, architecto expedita impedit tempore, nam laborum est officia dignissimos, aperiam reprehenderit dolorum autem in repellendus deserunt? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere sint, sit inventore perspiciatis itaque quia nostrum alias animi debitis possimus eveniet quas at officia non deleniti suscipit mollitia id corporis. Sapiente recusandae, quod hic nostrum maiores debitis repudiandae quos dignissimos?</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (menu.style.display  == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
